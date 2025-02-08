@@ -1844,7 +1844,7 @@ void MainWindow::onHelpAbout(){
 
     QString ABOUT=
 //            "Ted V"TED_VERSION"  (QT_VERSION "_STRINGIZE(QT_VERSION)"; Monkey V"+MONKEY_VERSION+"; Trans V"+_transVersion+")\n\n"
-            "Ted V"TED_VERSION"  (Monkey V"+MONKEY_VERSION+"; Trans V"+_transVersion+"; QT_VERSION "_STRINGIZE(QT_VERSION)")\n\n"
+            "Ted V"TED_VERSION"  (Monkey V"+MONKEY_VERSION+"; Trans V"+_transVersion+"; QT_VERSION V" + QString(qVersion()) + ")\n\n"
             "Copyright Blitz Research Ltd.\n\n"
             "A simple editor/IDE for the Monkey programming language.\n\n"
             "Please visit www.monkeycoder.co.nz for more information on Monkey."
